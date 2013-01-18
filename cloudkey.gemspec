@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "cloudkey"
   s.rdoc_options = ["--line-numbers", "--main", "README.md"]
-  s.extra_rdoc_files = ["README.md"]
+  s.extra_rdoc_files = ["Readme.md"]
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
